@@ -21,7 +21,7 @@ resource "google_compute_instance" "tf-cloud-01" {
         initialize_params {
         size  = 10
         type  = "pd-standard"
-        image = "debian-cloud/debian-9"
+        image = "debian-cloud/debian-10"
         }
     }
 
